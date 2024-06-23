@@ -14,7 +14,15 @@ import { register } from '@/services/api'
 export default {
   name: 'RegisterForm',
   setup() {
-    const walletAddress = ref('')
+    const generateDummyAddress = () => {
+      const chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+      let address = 'ton';
+      for (let i = 0; i < 33; i++) {
+        address += chars.charAt(Math.floor(Math.random() * chars.length));
+      }
+      return address;
+    }
+    const walletAddress = ref(generateDummyAddress())
     const username = ref('')
     const email = ref('')
 
@@ -30,6 +38,7 @@ export default {
     return {
       walletAddress,
       username,
+      email,
       register: registerUser
     }
   }
