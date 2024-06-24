@@ -1,0 +1,8 @@
+.secrets
+# Ignore recursively node_modules folder
+**node_modules
+
+# Other files and directories to ignore
+.DS_Store
+.env
+dist/
