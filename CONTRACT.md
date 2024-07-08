@@ -33,3 +33,4 @@ Receive early access to new features and updates. As a contributor, you will be 
 
 - alexmazaltov
 - Oleksii909
+- jacob647548
