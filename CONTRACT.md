@@ -31,4 +31,5 @@ Receive early access to new features and updates. As a contributor, you will be 
 
 ## List of contributors
 
-- [Oleksii Bondarenko](https://github com/alexmazaltov)
+- alexmazaltov
+- Oleksii909
